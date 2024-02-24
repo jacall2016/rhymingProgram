@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhyming Words Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Rhyming Words Generator</h1>
+    
+    <label for="inputWord">Enter a word:</label>
+    <input type="text" id="inputWord" value="light">
+    <button onclick="generate()">Search</button>
+
+    <div id="results">
+        <div class="flex1">
+            <div>
+                <h2>Rhyming Words:</h2>
+                <ul id="rhymingWordsList"></ul>
+            </div>
+            <div>
+                <h2>Synonyms:</h2>
+                <ul id="synonymsList"></ul>
+            </div>
+            <div>
+                <h2>Antonyms:</h2>
+                <ul id="antonymsList"></ul>
+            </div>
+        </div>
+        <div class="flex1">
+            <div>
+                <h2>Rhyming Synonyms:</h2>
+                <ul id="rhymingSynonymsList"></ul>
+            </div>
+            <div>
+                <h2>Rhyming Antonyms:</h2>
+                <ul id="rhymingAntonymsList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
